@@ -1,0 +1,73 @@
+{
+  "@context" : {
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "lng" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#lng",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "deathPlace" : {
+      "@id" : "http://dbpedia.org/ontology/deathPlace",
+      "@type" : "@id"
+    },
+    "deathDate" : {
+      "@id" : "http://dbpedia.org/ontology/deathDate",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Street" : {
+      "@id" : "http://dbpedia.org/ontology/Street"
+    },
+    "name" : {
+      "@id" : "http://dbpedia.org/ontology/name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "postalCode" : {
+      "@id" : "http://dbpedia.org/ontology/postalCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "PopulatedPlace" : {
+      "@id" : "http://dbpedia.org/ontology/PopulatedPlace"
+    },
+    "location" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+      "@type" : "@id"
+    },
+    "birthPlace" : {
+      "@id" : "http://dbpedia.org/ontology/birthPlace",
+      "@type" : "@id"
+    },
+    "Place" : {
+      "@id" : "http://dbpedia.org/ontology/Place"
+    },
+    "Point" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+    },
+    "type" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://dbpedia.org/ontology/birthDate",
+      "@type" : "@id"
+    },
+    "lat" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+    },
+    "namedAfter" : {
+      "@id" : "http://dbpedia.org/ontology/namedAfter",
+      "@type" : "@id"
+    }
+  }
+}
