@@ -1,0 +1,7 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://dbpedia.org/ontology/PopulatedPlace" "http://dbpedia.org/ontology/Place" ; /*classes style*/
+	"http://dbpedia.org/ontology/PopulatedPlace" -> "http://dbpedia.org/ontology/Place" [ label = "rdfs:subClassOf" ];
+
+}

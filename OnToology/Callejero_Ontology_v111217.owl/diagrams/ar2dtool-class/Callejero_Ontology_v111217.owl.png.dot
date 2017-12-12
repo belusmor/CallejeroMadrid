@@ -1,0 +1,19 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "http://www.w3.org/2003/01/geo/wgs84_pos#Point" "http://dbpedia.org/ontology/Street" ; /*classes style*/
+	"rdf:type" -> "owl:topDataProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://dbpedia.org/ontology/birthDate" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://dbpedia.org/ontology/deathDate" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://dbpedia.org/ontology/name" -> "owl:topDataProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://www.w3.org/2003/01/geo/wgs84_pos#lng" -> "owl:topDataProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://dbpedia.org/ontology/birthPlace" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://dbpedia.org/ontology/Street" -> "http://www.w3.org/2003/01/geo/wgs84_pos#Point" [ label = "http://www.w3.org/2003/01/geo/wgs84_pos#location" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "http://dbpedia.org/ontology/postalCode" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "http://dbpedia.org/ontology/name" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "rdfs:label" ];
+	"http://dbpedia.org/ontology/Street" -> "owl:Thing" [ label = "http://dbpedia.org/ontology/namedAfter" ];
+	"http://www.w3.org/2003/01/geo/wgs84_pos#Point" -> "xsd:float" [ label = "http://www.w3.org/2003/01/geo/wgs84_pos#lng" ];
+	"http://dbpedia.org/ontology/Street" -> "xsd:string" [ label = "rdf:type" ];
+
+}
